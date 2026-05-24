@@ -556,12 +556,12 @@
     { name: "美团点评", start: 2018.3, end: 2020.4, key: "DAU 10x" },
     { name: "阿里淘宝", start: 2020.4, end: 2022.5, key: "九大人群" },
     { name: "小红书", start: 2022.5, end: 2023.2, key: "GMV 4x" },
-    { name: "会读 CEO", start: 2023.2, end: 2024.0, key: "国内首个好用AI产品" },
+    { name: "会读 CEO", start: 2023.2, end: 2024.0, key: "2023国内AI C端小爆款" },
     { name: "和讯产品增长\n中心总经理", start: 2024.0, end: 2025.9, key: "AI-SEO MAU300W→1000W" },
     { name: "上市零售·AI", start: 2025.9, end: 2026.5, key: "传统企业深入落地" },
   ];
 
-  const W = 840, H = 64;
+  const W = 840, H = 72;
   const minY = 2017, maxY = 2026.6;
   const padL = 10, padR = 10;
   const tw = W - padL - padR;
@@ -600,11 +600,11 @@
     // Key metric below
     if (j.key) {
       g.append("text")
-        .attr("x", bx + bw / 2).attr("y", BARY + BARH + 11)
+        .attr("x", bx + bw / 2).attr("y", BARY + BARH + 13)
         .attr("text-anchor", "middle")
-        .attr("font-size", "9px")
+        .attr("font-size", "8.5px")
         .attr("font-family", "-apple-system,'PingFang SC',sans-serif")
-        .attr("fill", "#999")
+        .attr("fill", "#666")
         .text(j.key);
     }
   });
