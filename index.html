@@ -183,7 +183,7 @@
   <div class="hd-left">
     <div class="name">王博龙</div>
     <div class="role">年初至今跑了 715 个 Agent session，月耗 token $2000+，从中找到了 Harness 还可以完善的 7+ 方向</div>
-    <div class="edu">北京航空航天大学 精密仪器系 硕士 · 2011–2014</div>
+    <div class="edu">北京航空航天大学 精密仪器系 硕士 · 2011–2014 &nbsp;|&nbsp; 18611288152</div>
     <div class="applying">
       <span class="pill">DeepSeek 的 Harness 借助超低 token 成本，很多事情大有可为</span>
     </div>
@@ -343,9 +343,47 @@
 <!-- ═══ CAREER TIMELINE ═══ -->
 <div class="sec">
   <div class="sec-title">职业轨迹</div>
-  <div id="timeline-wrap">
-    <svg id="timeline" width="840" height="64"></svg>
-  </div>
+  <p style="font-size:12px;color:#555;margin-bottom:10px;">11 年产品经验，大厂用增 → 创业 CEO → 传统企业 AI 落地，完整经历从 0-1 到规模化全周期。</p>
+  <table style="width:100%;border-collapse:collapse;font-size:11px;line-height:1.5;">
+    <thead>
+      <tr style="border-bottom:2px solid #111;">
+        <th style="text-align:left;padding:4px 8px;width:54px;"></th>
+        <th style="text-align:center;padding:4px 6px;font-weight:600;color:#999;font-size:10px;">2015–2018</th>
+        <th style="text-align:center;padding:4px 6px;font-weight:600;color:#999;font-size:10px;">2018–2020</th>
+        <th style="text-align:center;padding:4px 6px;font-weight:600;color:#999;font-size:10px;">2020–2023</th>
+        <th style="text-align:center;padding:4px 6px;font-weight:600;color:#999;font-size:10px;">2023–2024</th>
+        <th style="text-align:center;padding:4px 6px;font-weight:600;color:#999;font-size:10px;">2024–2025</th>
+        <th style="text-align:center;padding:4px 6px;font-weight:600;color:#999;font-size:10px;">2025–now</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #eee;">
+        <td style="padding:6px 8px;font-weight:700;color:#111;white-space:nowrap;">创业</td>
+        <td style="text-align:center;padding:6px;color:#888;">字节飞书<br><span style="font-size:10px;color:#bbb;">ownership</span></td>
+        <td style="text-align:center;padding:6px;color:#ccc;">—</td>
+        <td style="text-align:center;padding:6px;color:#ccc;">—</td>
+        <td style="text-align:center;padding:6px;color:#111;font-weight:600;">会读 CEO<br><span style="font-size:10px;color:#666;">AI C端小爆款</span></td>
+        <td style="text-align:center;padding:6px;color:#ccc;">—</td>
+        <td style="text-align:center;padding:6px;color:#ccc;">—</td>
+      </tr>
+      <tr style="border-bottom:1px solid #eee;">
+        <td style="padding:6px 8px;font-weight:700;color:#111;white-space:nowrap;">大厂</td>
+        <td style="text-align:center;padding:6px;color:#ccc;">—</td>
+        <td style="text-align:center;padding:6px;color:#111;font-weight:600;">美团点评<br><span style="font-size:10px;color:#666;">DAU 10x</span></td>
+        <td style="text-align:center;padding:6px;color:#111;font-weight:600;">淘宝 / 小红书<br><span style="font-size:10px;color:#666;">九大人群 · GMV 4x</span></td>
+        <td style="text-align:center;padding:6px;color:#ccc;">—</td>
+        <td style="text-align:center;padding:6px;color:#ccc;">—</td>
+        <td style="text-align:center;padding:6px;color:#ccc;">—</td>
+      </tr>
+      <tr>
+        <td style="padding:6px 8px;font-weight:700;color:#111;white-space:nowrap;">业务</td>
+        <td style="text-align:center;padding:6px;color:#888;" colspan="3">电商 / 零售 / 金融 — 业务搭建及数字化基建，建制建联</td>
+        <td style="text-align:center;padding:6px;color:#ccc;">—</td>
+        <td style="text-align:center;padding:6px;color:#111;font-weight:600;">和讯<br><span style="font-size:10px;color:#666;">产品增长中心 GM<br>MAU 300W→1000W</span></td>
+        <td style="text-align:center;padding:6px;color:#111;font-weight:600;">上市零售<br><span style="font-size:10px;color:#666;">AI 落地<br>摸爬滚打</span></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <!-- ═══ EXPERIENCE ═══ -->
@@ -549,81 +587,7 @@
   });
 })();
 
-// ══ CAREER TIMELINE ══
-(function() {
-  const jobs = [
-    { name: "创业+字节飞书", start: 2015.0, end: 2018.3, key: "" },
-    { name: "美团点评", start: 2018.3, end: 2020.4, key: "DAU 10x" },
-    { name: "阿里淘宝", start: 2020.4, end: 2022.5, key: "九大人群" },
-    { name: "小红书", start: 2022.5, end: 2023.2, key: "GMV 4x" },
-    { name: "会读 CEO", start: 2023.2, end: 2024.0, key: "2023国内AI C端小爆款" },
-    { name: "和讯产品增长\n中心总经理", start: 2024.0, end: 2025.9, key: "AI-SEO MAU300W→1000W" },
-    { name: "上市零售·AI", start: 2025.9, end: 2026.5, key: "传统企业深入落地" },
-  ];
-
-  const W = 840, H = 72;
-  const minY = 2017, maxY = 2026.6;
-  const padL = 10, padR = 10;
-  const tw = W - padL - padR;
-
-  const svg = d3.select("#timeline").attr("width", W).attr("height", H);
-  const g = svg.append("g").attr("transform", `translate(${padL}, 0)`);
-
-  const sc = d3.scaleLinear().domain([minY, maxY]).range([0, tw]);
-
-  const colors = ["#ccc","#888","#777","#666","#444","#222","#111"];
-  const BARH = 22, BARY = 20;
-
-  jobs.forEach((j, i) => {
-    const bx = sc(j.start);
-    const bw = Math.max(sc(j.end) - sc(j.start) - 2, 4);
-
-    // Bar
-    g.append("rect")
-      .attr("x", bx).attr("y", BARY)
-      .attr("width", bw).attr("height", BARH)
-      .attr("rx", 3)
-      .attr("fill", colors[i]);
-
-    // Label inside bar
-    const label = j.name.replace("\n", " ");
-    if (bw > 45) {
-      g.append("text")
-        .attr("x", bx + bw / 2).attr("y", BARY + BARH / 2 + 1)
-        .attr("text-anchor", "middle").attr("dominant-baseline", "middle")
-        .attr("font-size", "9px")
-        .attr("font-family", "-apple-system,'PingFang SC',sans-serif")
-        .attr("fill", i >= 5 ? "#fff" : "#333")
-        .text(label);
-    }
-
-    // Key metric below
-    if (j.key) {
-      g.append("text")
-        .attr("x", bx + bw / 2).attr("y", BARY + BARH + 13)
-        .attr("text-anchor", "middle")
-        .attr("font-size", "8.5px")
-        .attr("font-family", "-apple-system,'PingFang SC',sans-serif")
-        .attr("fill", "#666")
-        .text(j.key);
-    }
-  });
-
-  // Year ticks
-  [2017,2018,2019,2020,2021,2022,2023,2024,2025,2026].forEach(y => {
-    g.append("line")
-      .attr("x1", sc(y)).attr("y1", BARY - 4)
-      .attr("x2", sc(y)).attr("y2", BARY)
-      .attr("stroke", "#ccc").attr("stroke-width", 1);
-    g.append("text")
-      .attr("x", sc(y)).attr("y", BARY - 7)
-      .attr("text-anchor", "middle")
-      .attr("font-size", "8px")
-      .attr("fill", "#aaa")
-      .attr("font-family", "var(--mono)")
-      .text(y);
-  });
-})();
+// ══ CAREER TIMELINE (now pure HTML table, no D3) ══
 </script>
 </body>
 </html>
